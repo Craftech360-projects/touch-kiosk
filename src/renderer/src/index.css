@@ -1,0 +1,25 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    /* Full height */
+    width: 100%;
+    /* Full width */
+    overflow: hidden;
+    /* Prevent scrolling */
+    box-sizing: border-box;
+    /* Include padding/border in width/height */
+    font-family: 'CustomFont', sans-serif;
+}
+
+
+@font-face {
+    font-family: 'CustomFont';
+    src: url('../../../public/font.ttf');
+    font-weight: bold;
+}
+
+body {
+    font-family: 'CustomFont', sans-serif;
+}
